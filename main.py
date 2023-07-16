@@ -4,11 +4,11 @@ def main():
     a = 'easy'
 
     if a == 'easy':
-        size = 8
-        bombs = 10
+        size = 8,10
+        bombs = 0.1
 
-    screen = Screen(400,400, size, bombs)
-    screen.play()
+    screen = Screen(670,670, size, bombs)
+    screen.run()
 
 if __name__ == '__main__':
     main()
